@@ -192,7 +192,7 @@ a:hover {
 
 /* Education, Certifications, Extracurricular Cards */
 .extracurricular h2 {
-  max-width: 600px;  /* Reduce width */
+  max-width: 400px;  /* Reduce width */
   margin: 0 auto;    /* Center it */
   line-height: 1.2;  /* Optional: tighten lines */
   font-size: 1.8rem; /* Optional: smaller font */
