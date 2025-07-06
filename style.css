@@ -148,7 +148,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .hero {
     padding: 30px 15px;
@@ -189,4 +188,45 @@ a:hover {
 
 .section + .section {
   margin-top: 30px;
+}
+
+/* Education, Certifications, Extracurricular Cards */
+.education ul,
+.certifications ul,
+.extracurricular ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.education ul li,
+.certifications ul li,
+.extracurricular ul li {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-left: 5px solid #6dd5ed;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education ul li:hover,
+.certifications ul li:hover,
+.extracurricular ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Headings */
+.education h2,
+.certifications h2,
+.extracurricular h2,
+.interests h2 {
+  color: #6dd5ed;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
